@@ -34,7 +34,9 @@ const Container = styled.div`
 
     @media only screen and (max-width: 768px){
         flex-direction: column;   
-          
+        // position: relative;
+        // top: 70px;  
+        // gap: 40px;
     }
 `;
 

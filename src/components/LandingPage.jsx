@@ -1,10 +1,12 @@
 import styled from "styled-components"
 import Hero from "./Hero"
+import Logos from "./Logos"
 
 const LandingPage = () => {
   return (
     <Container>
         <Hero />
+        <Logos />
     </Container>
   )
 }
