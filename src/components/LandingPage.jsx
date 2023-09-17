@@ -4,7 +4,6 @@ import Hero from "./Hero"
 const LandingPage = () => {
   return (
     <Container>
-        LandingPage
         <Hero />
     </Container>
   )

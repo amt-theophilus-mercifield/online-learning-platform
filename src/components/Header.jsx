@@ -12,7 +12,11 @@ const Header = () => {
             <a href="/categories">
                 <span>Categories</span>
             </a>
-            <Search />
+
+            <SearchContainer>
+                <Search />
+            </SearchContainer>
+            
             </Menu1>
             <Menu2>
             <a href="/discover">
@@ -60,6 +64,7 @@ const Nav = styled.nav`
     letter-spacing: 1.2px;
     z-index: 3;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
 `;
 
 const Logo = styled.a`
@@ -77,7 +82,7 @@ const NavMenu = styled.div`
     align-items: center;
     flex: 1;
     // flex-flow: row nowrap;
-    height: 100%
+    height: 100%;
     // margin: 0;
     // padding: 0;
     // position: relative;
@@ -85,7 +90,9 @@ const NavMenu = styled.div`
     // margin-left: 25px;
 
     @media (max-width: 768px){
-        // display: none;
+        grid-template-columns: 1fr;
+        max-width: 50vw;
+        place-items: left;
     }
 
     a {
@@ -98,11 +105,21 @@ const Menu1 = styled.nav`
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-left: 25px;
+    @media (max-width: 768px){
+        display: flex;
+    }
 `;
 const Menu2 = styled.nav`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    @media all and (max-width: 768px){
+        display: none;   
+    }
+`;
+
+const SearchContainer = styled.div`
+    
 `;
 
 const UserImg = styled.a`
