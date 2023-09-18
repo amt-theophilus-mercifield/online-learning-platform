@@ -3,7 +3,7 @@ import styled from "styled-components"
 const Search = () => {
   return (
     <Container>
-        <img src="../search-icon.svg" alt="search" />
+        <img src="../images/search-icon.svg" alt="search" />
         <span>Search anything..</span>
     </Container>
   )

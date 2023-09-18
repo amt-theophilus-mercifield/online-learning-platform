@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Nav>
         <Logo>
-            <img src="../vite.svg" alt="logo" />
+            <img src="../images/vite.svg" alt="logo" />
         </Logo>
         <NavMenu>
             <Menu1>
@@ -29,18 +29,18 @@ const Header = () => {
                 <span>My Courses</span>
             </a>
             <a href="/bookmarked">
-                <img src="../bookmark-icon.svg" alt="bookmark" />
+                <img src="../images/bookmark-icon.svg" alt="bookmark" />
             </a>
             <a href="/liked">
-                <img src="../like-icon.svg" alt="like" />
+                <img src="../images/like-icon.svg" alt="like" />
             </a>
             <a href="/notifications">
-                <img src="../notification-icon.svg" alt="notification" />
+                <img src="../images/notification-icon.svg" alt="notification" />
             </a>
             </Menu2>
         </NavMenu>
         <UserImg>
-            <img src="../pexels-karolina-grabowska-6256140.jpg" alt="" />
+            <img src="../images/pexels-karolina-grabowska-6256140.jpg" alt="" />
         </UserImg>
 
     </Nav>
@@ -119,7 +119,7 @@ const Menu2 = styled.nav`
 `;
 
 const SearchContainer = styled.div`
-    
+
 `;
 
 const UserImg = styled.a`

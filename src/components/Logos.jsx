@@ -19,8 +19,10 @@ export default Logos
 
 const Container = styled.div`
     width: 100%;
+    // width: calc(100% - 110px);
     height: 270px;
     border: 1px solid red;
+    overflow: hidden;
 
     @media only screen and (max-width: 768px){
         height: 180px;
